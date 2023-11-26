@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import StarRating from '../StarRating';
-import { useKey } from '../useKey';
 import Loader from './Loader';
+import { useKey } from './../hooks/useKey';
+import StarRating from './StarRating';
 
 const APIKEY = 'dcd9531d';
 

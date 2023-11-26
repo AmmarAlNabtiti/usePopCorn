@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { useMovies } from './useMovies';
-import { useLocalStorage } from './useLocalStorage';
+
 import Navbar from './components/Navbar';
 import Search from './components/Search';
 import NumResults from './components/NumResults';
@@ -13,6 +12,8 @@ import WatchedSummary from './components/WatchedSummary';
 import WatchedMoviesList from './components/WatchedMoviesList';
 import Logo from './components/Logo';
 import Main from './components/Main';
+import { useMovies } from './hooks/useMovies';
+import { useLocalStorage } from './hooks/useLocalStorage';
 
 
 export default function App() {
