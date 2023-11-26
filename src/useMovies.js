@@ -6,6 +6,7 @@ export function useMovies(query, setQuery) {
     const [movies, setMovies] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState('');
+
     // QUERY MOVIES API
     useEffect(() => {
         setIsLoading(true);
